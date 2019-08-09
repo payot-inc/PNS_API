@@ -1,0 +1,28 @@
+{
+  "name": "pns",
+  "version": "1.0.0",
+  "description": "장비 상태 확인 웹서비스",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon ./app.js",
+    "test": "mocha -w ./index.spec.js"
+  },
+  "keywords": [
+    "세탁장비",
+    "상태확인"
+  ],
+  "author": "payot.2017@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "lowdb": "^1.0.0",
+    "mocha": "^6.2.0",
+    "moment": "^2.24.0",
+    "mqtt": "^3.0.0",
+    "ws": "^7.1.1"
+  }
+}
