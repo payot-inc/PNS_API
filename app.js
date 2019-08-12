@@ -1,20 +1,29 @@
 const express = require('express');
 const app = express();
-const WebSocket = require('ws').Server;
+const server = require('http').createServer(app);
+const io = require('socket.io')(server);
+const mqttEvent = require('./module/mqtt');
+const db = require('./module/db');
 
-const websocket = new WebSocket({ port: 8999 });
+global.db = db;
+global.event = mqttEvent;
 
-websocket.on('connection', ws => {
-  ws.on('message', console.log);
-  global.ws = ws;
-
-  setInterval(() => {
-    const message = JSON.stringify({ machine: 'asdfasdfsa', stopTime: new Date(), isBroken: false });
-    ws.send(message);
-  }, 2000);
-});
-
+app.use(require('cors')());
 app.use(express.json());
 app.use('/', require('./router/index'));
 
-app.listen(3000);
+io.on('connection', ws => {
+  console.log(`Connected ID: ${ws.id}`);
+  const pushUpdate = mqttEvent.subscribe(data => {
+    ws.emit('update', JSON.stringify(data));
+  }, () => {});
+  
+  ws.on('disconnect', reason => {
+    console.log(reason);
+    pushUpdate.unsubscribe();
+  });
+});
+
+server.listen(3000);
+
+module.exports = server;

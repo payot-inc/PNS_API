@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "dev": "nodemon ./app.js",
-    "test": "mocha -w ./index.spec.js"
+    "test": "mocha -w ./test/db.spec.js"
   },
   "keywords": [
     "세탁장비",
@@ -16,6 +16,7 @@
   "dependencies": {
     "chai": "^4.2.0",
     "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
     "dotenv": "^8.0.0",
     "express": "^4.17.1",
     "lodash": "^4.17.15",
@@ -23,6 +24,8 @@
     "mocha": "^6.2.0",
     "moment": "^2.24.0",
     "mqtt": "^3.0.0",
+    "rxjs": "^6.5.2",
+    "socket.io": "^2.2.0",
     "ws": "^7.1.1"
   }
 }

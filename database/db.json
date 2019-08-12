@@ -1,0 +1,66 @@
+{
+  "machine": [
+    {
+      "mac": "80:7D:3A:15:78:41",
+      "name": "세탁기1",
+      "stopTime": 1565316400758,
+      "groupId": 1,
+      "isBroken": true
+    },
+    {
+      "mac": "80:7D:3A:15:C5:4F",
+      "name": "세탁기2",
+      "stopTime": 1565316400758,
+      "groupId": 1,
+      "isBroken": false
+    },
+    {
+      "mac": "80:7D:3A:15:AD:88",
+      "name": "세탁기3",
+      "stopTime": 1565579517837,
+      "groupId": 1,
+      "isBroken": false
+    },
+    {
+      "mac": "80:7D:3A:14:FB:8A",
+      "name": "세탁기4",
+      "stopTime": 1565335678396,
+      "groupId": 1,
+      "isBroken": false
+    },
+    {
+      "mac": "68:C6:3A:CA:FF:78",
+      "name": "세탁기5",
+      "stopTime": 1565316400758,
+      "groupId": 1,
+      "isBroken": false
+    },
+    {
+      "mac": "80:7D:3A:15:BB:8E",
+      "name": "세탁기6",
+      "stopTime": 1565316400758,
+      "groupId": 1,
+      "isBroken": false
+    },
+    {
+      "mac": "5C:CF:7F:77:1F:97",
+      "name": "세탁기7",
+      "stopTime": 1565316400758,
+      "groupId": 1,
+      "isBroken": false
+    },
+    {
+      "mac": "B4:E6:2D:14:D2:C5",
+      "name": "세탁기8",
+      "stopTime": 1565578964672,
+      "groupId": 1,
+      "isBroken": false
+    }
+  ],
+  "group": [
+    {
+      "id": 1,
+      "name": "동아대학교 남자기숙사 1층"
+    }
+  ]
+}
