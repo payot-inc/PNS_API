@@ -10,20 +10,20 @@ global.event = mqttEvent;
 
 app.use(require('cors')());
 app.use(express.json());
-app.use('/', require('./router/index'));
+app.set('views', './views');
+app.use(express.static('static'));
+app.use('/api', require('./router/index'));
 
 io.on('connection', ws => {
-  console.log(`Connected ID: ${ws.id}`);
   const pushUpdate = mqttEvent.subscribe(data => {
     ws.emit('update', JSON.stringify(data));
   }, () => {});
   
   ws.on('disconnect', reason => {
-    console.log(reason);
     pushUpdate.unsubscribe();
   });
 });
 
-server.listen(3000);
+server.listen(3000, () => { console.log('server is running'); });
 
 module.exports = server;

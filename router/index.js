@@ -3,7 +3,7 @@ const router = Router();
 
 router.get("/", (req, res, next) => {
   try {
-    res.send('kkkkk');
+    res.sendFile('index.html');
   } catch (error) {
     next(error);
   }

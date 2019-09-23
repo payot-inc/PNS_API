@@ -3,28 +3,28 @@
     {
       "mac": "80:7D:3A:15:78:41",
       "name": "세탁기1",
-      "stopTime": 1565316400758,
+      "stopTime": 1568619689567,
       "groupId": 1,
-      "isBroken": true
+      "isBroken": false
     },
     {
       "mac": "80:7D:3A:15:C5:4F",
       "name": "세탁기2",
-      "stopTime": 1565316400758,
+      "stopTime": 1568860264601,
       "groupId": 1,
       "isBroken": false
     },
     {
       "mac": "80:7D:3A:15:AD:88",
       "name": "세탁기3",
-      "stopTime": 1565579517837,
+      "stopTime": 1568859154611,
       "groupId": 1,
-      "isBroken": false
+      "isBroken": true
     },
     {
       "mac": "80:7D:3A:14:FB:8A",
       "name": "세탁기4",
-      "stopTime": 1565335678396,
+      "stopTime": 1568860938705,
       "groupId": 1,
       "isBroken": false
     },

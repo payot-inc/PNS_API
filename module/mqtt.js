@@ -3,19 +3,19 @@ require("dotenv").config();
 const mqtt = require("mqtt");
 const client = mqtt.connect(process.env.MQTT_HOST);
 const db = require("./db");
-const { Subject } = require('rxjs');
+const { Subject } = require("rxjs");
 
 const event = new Subject();
 
 client.on("connect", () => {
-  console.log("on connect", process.env.MQTT_HOST);
-  
-  db.get('machine')
-    .map('mac')
+  db.get("machine")
+    .map("mac")
     .value()
     .forEach(mac => {
-      const subscribeTopic = `machine/${mac}/service/+`;
-      client.subscribe(subscribeTopic);
+      ["cash", "card", "claim"].forEach(method => {
+        const subscribeTopic = `machine/${mac}/service/${method}`;
+        client.subscribe(subscribeTopic);
+      });
     });
 });
 
@@ -43,10 +43,13 @@ function writeLog(topic, message) {
     .write();
 
   // 웹소켓으로 변동 내역 전파
-  const socketMessage = JSON.stringify({ method: 'updated', group: machine.groupId });
+  const socketMessage = JSON.stringify({
+    method: "updated",
+    group: machine.groupId
+  });
   event.next(socketMessage);
 }
 
-client.on('message', writeLog);
+client.on("message", writeLog);
 
 module.exports = event;

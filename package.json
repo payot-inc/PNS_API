@@ -4,7 +4,8 @@
   "description": "장비 상태 확인 웹서비스",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon ./app.js",
+    "start": "node ./app.js",
+    "dev": "nodemon app.js",
     "test": "mocha -w ./test/db.spec.js"
   },
   "keywords": [
@@ -27,5 +28,8 @@
     "rxjs": "^6.5.2",
     "socket.io": "^2.2.0",
     "ws": "^7.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
   }
 }
