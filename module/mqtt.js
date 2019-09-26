@@ -36,7 +36,7 @@ function writeLog(topic, message) {
   // if (machine.stopTime > Date.now()) return;
 
   // 동작시간을 설정
-  const duration = Date.now() + 30 * 60 * 1000;
+  const duration = Date.now() + 42 * 60 * 1000;
   db.get("machine")
     .find({ mac })
     .assign({ stopTime: duration })
