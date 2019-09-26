@@ -1,59 +1,115 @@
 {
   "machine": [
     {
-      "mac": "80:7D:3A:15:78:41",
+      "mac": "EC:FA:BC:41:DB:3A",
       "name": "세탁기1",
       "stopTime": 1568619689567,
       "groupId": 1,
       "isBroken": false
     },
     {
-      "mac": "80:7D:3A:15:C5:4F",
+      "mac": "EC:FA:BC:41:16:5F",
       "name": "세탁기2",
       "stopTime": 1568860264601,
       "groupId": 1,
       "isBroken": false
     },
     {
-      "mac": "80:7D:3A:15:AD:88",
+      "mac": "EC:FA:BC:41:A1:30",
       "name": "세탁기3",
-      "stopTime": 1568859154611,
+      "stopTime": 1569474938186,
       "groupId": 1,
-      "isBroken": true
+      "isBroken": false
     },
     {
-      "mac": "80:7D:3A:14:FB:8A",
+      "mac": "EC:FA:BC:41:CF:E1",
       "name": "세탁기4",
       "stopTime": 1568860938705,
       "groupId": 1,
       "isBroken": false
     },
     {
-      "mac": "68:C6:3A:CA:FF:78",
+      "mac": "CC:50:E3:3E:E4:30",
       "name": "세탁기5",
-      "stopTime": 1565316400758,
+      "stopTime": 1569475524626,
       "groupId": 1,
       "isBroken": false
     },
     {
-      "mac": "80:7D:3A:15:BB:8E",
+      "mac": "CC:50:E3:3E:DD:79",
       "name": "세탁기6",
-      "stopTime": 1565316400758,
+      "stopTime": 1569475543630,
       "groupId": 1,
-      "isBroken": false
+      "isBroken": true
     },
     {
-      "mac": "5C:CF:7F:77:1F:97",
+      "mac": "EC:FA:BC:41:D2:A9",
       "name": "세탁기7",
       "stopTime": 1565316400758,
       "groupId": 1,
       "isBroken": false
     },
     {
-      "mac": "B4:E6:2D:14:D2:C5",
+      "mac": "DC:4F:22:6E:40:D8",
       "name": "세탁기8",
       "stopTime": 1565578964672,
       "groupId": 1,
+      "isBroken": false
+    },
+    {
+      "mac": "80:7D:3A:15:78:41",
+      "name": "세탁기1",
+      "stopTime": 1565578964672,
+      "groupId": 2,
+      "isBroken": false
+    },
+    {
+      "mac": "80:7D:3A:15:C5:4F",
+      "name": "세탁기2",
+      "stopTime": 1565578964672,
+      "groupId": 2,
+      "isBroken": false
+    },
+    {
+      "mac": "80:7D:3A:15:AD:88",
+      "name": "세탁기3",
+      "stopTime": 1565578964672,
+      "groupId": 2,
+      "isBroken": false
+    },
+    {
+      "mac": "80:7D:3A:14:FB:8A",
+      "name": "세탁기4",
+      "stopTime": 1565578964672,
+      "groupId": 2,
+      "isBroken": false
+    },
+    {
+      "mac": "68:C6:3A:CA:FF:78",
+      "name": "세탁기5",
+      "stopTime": 1569475409514,
+      "groupId": 2,
+      "isBroken": false
+    },
+    {
+      "mac": "80:7D:3A:15:BB:8E",
+      "name": "세탁기6",
+      "stopTime": 1565578964672,
+      "groupId": 2,
+      "isBroken": false
+    },
+    {
+      "mac": "5C:CF:7F:77:1F:97",
+      "name": "세탁기7",
+      "stopTime": 1565578964672,
+      "groupId": 2,
+      "isBroken": false
+    },
+    {
+      "mac": "B4:E6:2D:14:D2:C5",
+      "name": "세탁기8",
+      "stopTime": 1565578964672,
+      "groupId": 2,
       "isBroken": false
     }
   ],
@@ -61,6 +117,10 @@
     {
       "id": 1,
       "name": "동아대학교 남자기숙사 1층"
+    },
+    {
+      "id": 2,
+      "name": "동아대학교 여자기숙사 지하 1층"
     }
   ]
 }
