@@ -30,7 +30,7 @@ router.put('/machine/:mac/broken', async (req, res, next) => {
   const { mac } = req.params;
   const { password, status } = req.body;
 
-  if (password !== '1234') res.status(400).json({ message: '비밀번호가 맞지 않습니다', code: 1 });
+  if (password !== '2902') res.status(400).json({ message: '비밀번호가 맞지 않습니다', code: 1 });
   else {
     const machine = db.get('machine')
       .chain()
