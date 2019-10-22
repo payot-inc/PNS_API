@@ -9,6 +9,11 @@ router.get("/", (req, res, next) => {
   }
 });
 
+router.get('/group', async (req, res, next) => {
+  const data = db.get('group').value();
+  res.json(data);
+});
+
 // 그룹 조회
 router.get('/group/:id', async (req, res, next) => {
   const { id } = req.params;

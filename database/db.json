@@ -11,8 +11,8 @@
     {
       "mac": "EC:FA:BC:41:16:5F",
       "name": "2번 세탁기(남자)",
-      "startTime": 1571643685110,
-      "stopTime": 1571643710629,
+      "startTime": 1571730955836,
+      "stopTime": 1571725865313,
       "isBroken": false,
       "groupId": 1
     },
@@ -20,7 +20,7 @@
       "mac": "EC:FA:BC:41:A1:30",
       "name": "3번 세탁기(남자)",
       "startTime": 1571636791729,
-      "stopTime": 1571636791729,
+      "stopTime": 1571734152683,
       "isBroken": false,
       "groupId": 1
     },
@@ -132,11 +132,13 @@
   "group": [
     {
       "id": 1,
-      "name": "동아대학교 남자기숙사 1층"
+      "name": "동아대학교 남자기숙사 1층",
+      "path": "/dit/man"
     },
     {
       "id": 2,
-      "name": "동아대학교 여자기숙사 지하 1층"
+      "name": "동아대학교 여자기숙사 지하 1층",
+      "path": "/dit/woman"
     }
   ]
 }
