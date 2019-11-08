@@ -3,8 +3,9 @@
     {
       "mac": "EC:FA:BC:41:DB:3A",
       "name": "1번 세탁기(남자)",
-      "startTime": 1571637995617,
-      "stopTime": 1571637917627,
+      "startTime": 1573190644770,
+      "stopTime": 1573190677122,
+      "isRunning": false,
       "isBroken": false,
       "groupId": 1
     },
@@ -13,6 +14,7 @@
       "name": "2번 세탁기(남자)",
       "startTime": 1571730955836,
       "stopTime": 1571725865313,
+      "isRunning": false,
       "isBroken": false,
       "groupId": 1
     },
@@ -21,6 +23,7 @@
       "name": "3번 세탁기(남자)",
       "startTime": 1571636791729,
       "stopTime": 1571734152683,
+      "isRunning": false,
       "isBroken": false,
       "groupId": 1
     },
@@ -29,6 +32,7 @@
       "name": "4번 세탁기(남자)",
       "startTime": 1571636791729,
       "stopTime": 1571636791729,
+      "isRunning": false,
       "isBroken": false,
       "groupId": 1
     },
@@ -37,6 +41,7 @@
       "name": "5번 세탁기(남자)",
       "startTime": 1571636791729,
       "stopTime": 1571636791729,
+      "isRunning": false,
       "isBroken": false,
       "groupId": 1
     },
@@ -45,6 +50,7 @@
       "name": "6번 세탁기(남자)",
       "startTime": 1571636791729,
       "stopTime": 1571636791729,
+      "isRunning": false,
       "isBroken": false,
       "groupId": 1
     },
@@ -53,6 +59,7 @@
       "name": "7번 세탁기(남자)",
       "startTime": 1571636791729,
       "stopTime": 1571636791729,
+      "isRunning": false,
       "isBroken": false,
       "groupId": 1
     },
@@ -61,6 +68,7 @@
       "name": "8번 세탁기(남자)",
       "startTime": 1571636791729,
       "stopTime": 1571636791729,
+      "isRunning": false,
       "isBroken": false,
       "groupId": 1
     },
@@ -69,6 +77,7 @@
       "name": "1번 세탁기(여자)",
       "startTime": 1571636791729,
       "stopTime": 1571636791729,
+      "isRunning": false,
       "isBroken": false,
       "groupId": 2
     },
@@ -77,6 +86,7 @@
       "name": "2번 세탁기(여자)",
       "startTime": 1571636791729,
       "stopTime": 1571636791729,
+      "isRunning": false,
       "isBroken": false,
       "groupId": 2
     },
@@ -85,6 +95,7 @@
       "name": "3번 세탁기(여자)",
       "startTime": 1571636791729,
       "stopTime": 1571636791729,
+      "isRunning": false,
       "isBroken": false,
       "groupId": 2
     },
@@ -93,6 +104,7 @@
       "name": "4번 세탁기(여자)",
       "startTime": 1571636791729,
       "stopTime": 1571636791729,
+      "isRunning": false,
       "isBroken": false,
       "groupId": 2
     },
@@ -101,6 +113,7 @@
       "name": "5번 세탁기(여자)",
       "startTime": 1571636791729,
       "stopTime": 1571636791729,
+      "isRunning": false,
       "isBroken": false,
       "groupId": 2
     },
@@ -109,6 +122,7 @@
       "name": "6번 세탁기(여자)",
       "startTime": 1571636791729,
       "stopTime": 1571636791729,
+      "isRunning": false,
       "isBroken": false,
       "groupId": 2
     },
@@ -117,6 +131,7 @@
       "name": "7번 세탁기(여자)",
       "startTime": 1571636791729,
       "stopTime": 1571636791729,
+      "isRunning": false,
       "isBroken": false,
       "groupId": 2
     },
@@ -125,6 +140,7 @@
       "name": "8번 세탁기(여자)",
       "startTime": 1571636791729,
       "stopTime": 1571636791729,
+      "isRunning": false,
       "isBroken": false,
       "groupId": 2
     }
