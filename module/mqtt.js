@@ -22,6 +22,7 @@ client.on('connect', () => {
   });
 });
 
+<<<<<<< HEAD
 function eventHander(mac) {
   const machine = db.get('machine').find({ mac }).value();
   if (machine.isRunning) {
@@ -30,6 +31,37 @@ function eventHander(mac) {
     db.get('machine').find({ mac }).assign({ isRunning: true, startTime: Date.now() }).write();
   }
   event.next({ method: 'updated', group: machine.groupId });
+=======
+function writeLog(topic, message) {
+  const [, mac, , type] = topic.split("/");
+  const [err, amount] = message.toString().split(" ");
+
+  // 돈을 넣는 행위가 아니라면
+  if (!["cash", "card", "claim"].includes(type)) return;
+
+  // 장비를 조회
+  const machine = db
+    .get("machine")
+    .find({ mac })
+    .value();
+
+  // 장비가 현재 동작 중인 상태에서 돈이 들어온 경우라면 무시
+  // if (machine.stopTime > Date.now()) return;
+
+  // 동작시간을 설정
+  const duration = Date.now() + 50 * 60 * 1000;
+  db.get("machine")
+    .find({ mac })
+    .assign({ stopTime: duration })
+    .write();
+
+  // 웹소켓으로 변동 내역 전파
+  const socketMessage = JSON.stringify({
+    method: "updated",
+    group: machine.groupId
+  });
+  event.next(socketMessage);
+>>>>>>> bf797d0be98e7f42523671cd4dc89c673ad77b6b
 }
 
 module.exports = event;
