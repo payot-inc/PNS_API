@@ -2,7 +2,6 @@
   "machine": [
     {
       "mac": "EC:FA:BC:41:DB:3A",
-<<<<<<< HEAD
       "name": "1번 세탁기(남자)",
       "startTime": 1573191276693,
       "stopTime": 1573191279454,
@@ -144,117 +143,6 @@
       "isRunning": false,
       "isBroken": false,
       "groupId": 2
-=======
-      "name": "세탁기1",
-      "stopTime": 1569857758451,
-      "groupId": 1,
-      "isBroken": false
-    },
-    {
-      "mac": "EC:FA:BC:41:16:5F",
-      "name": "세탁기2",
-      "stopTime": 1569910101905,
-      "groupId": 1,
-      "isBroken": false
-    },
-    {
-      "mac": "EC:FA:BC:41:A1:30",
-      "name": "세탁기3",
-      "stopTime": 1569860014322,
-      "groupId": 1,
-      "isBroken": false
-    },
-    {
-      "mac": "EC:FA:BC:41:CF:E1",
-      "name": "세탁기4",
-      "stopTime": 1569850872422,
-      "groupId": 1,
-      "isBroken": false
-    },
-    {
-      "mac": "CC:50:E3:3E:E4:30",
-      "name": "세탁기5",
-      "stopTime": 1569857003031,
-      "groupId": 1,
-      "isBroken": false
-    },
-    {
-      "mac": "CC:50:E3:3E:DD:79",
-      "name": "세탁기6",
-      "stopTime": 1569901713083,
-      "groupId": 1,
-      "isBroken": false
-    },
-    {
-      "mac": "EC:FA:BC:41:D2:A9",
-      "name": "세탁기7",
-      "stopTime": 1569901848455,
-      "groupId": 1,
-      "isBroken": false
-    },
-    {
-      "mac": "DC:4F:22:6E:40:D8",
-      "name": "세탁기8",
-      "stopTime": 1569907429261,
-      "groupId": 1,
-      "isBroken": false
-    },
-    {
-      "mac": "80:7D:3A:15:78:41",
-      "name": "세탁기1",
-      "stopTime": 1569905815321,
-      "groupId": 2,
-      "isBroken": false
-    },
-    {
-      "mac": "80:7D:3A:15:C5:4F",
-      "name": "세탁기2",
-      "stopTime": 1569842314686,
-      "groupId": 2,
-      "isBroken": false
-    },
-    {
-      "mac": "80:7D:3A:15:AD:88",
-      "name": "세탁기3",
-      "stopTime": 1569856969102,
-      "groupId": 2,
-      "isBroken": false
-    },
-    {
-      "mac": "80:7D:3A:14:FB:8A",
-      "name": "세탁기4",
-      "stopTime": 1569905923273,
-      "groupId": 2,
-      "isBroken": false
-    },
-    {
-      "mac": "68:C6:3A:CA:FF:78",
-      "name": "세탁기5",
-      "stopTime": 1569908604184,
-      "groupId": 2,
-      "isBroken": false
-    },
-    {
-      "mac": "80:7D:3A:15:BB:8E",
-      "name": "세탁기6",
-      "stopTime": 1569902708944,
-      "groupId": 2,
-      "isBroken": false
-    },
-    {
-      "mac": "5C:CF:7F:77:1F:97",
-      "name": "세탁기7",
-      "stopTime": 1569856996432,
-      "groupId": 2,
-      "isBroken": false
-    },
-    {
-      "mac": "B4:E6:2D:14:D2:C5",
-      "name": "세탁기8",
-      "stopTime": 1569905865229,
-      "groupId": 2,
-      "isBroken": false
->>>>>>> bf797d0be98e7f42523671cd4dc89c673ad77b6b
     }
   ],
   "group": [
