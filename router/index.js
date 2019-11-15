@@ -40,10 +40,10 @@ router.put('/machine/:mac/broken', async (req, res, next) => {
     const machine = db.get('machine')
       .chain()
       .find({ mac })
-      .assign({ isRunning: false, isBroken: status, stopTime: Date.now() })
+      .assign({ isRunning: false, isBroken: status, updatedAt: Date.now() })
       .write();
     
-    event.next({ method: 'update', group: machine.groupId });
+    event.next(db.get('machine').find({ mac }).value());
     res.json(machine);
   }
 });
