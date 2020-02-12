@@ -1,144 +1,442 @@
 {
-  "machine": [
-    {
-      "mac": "EC:FA:BC:41:DB:3A",
-      "name": "1번 세탁기(남자)",
-      "updatedAt": 1573797291740,
-      "isRunning": true,
-      "isBroken": false,
-      "groupId": 1
-    },
-    {
-      "mac": "EC:FA:BC:41:16:5F",
-      "name": "2번 세탁기(남자)",
-      "updatedAt": 1573771291740,
-      "isRunning": true,
-      "isBroken": false,
-      "groupId": 1
-    },
-    {
-      "mac": "EC:FA:BC:41:A1:30",
-      "name": "3번 세탁기(남자)",
-      "updatedAt": 1573191276693,
-      "isRunning": false,
-      "isBroken": false,
-      "groupId": 1
-    },
-    {
-      "mac": "EC:FA:BC:41:CF:E1",
-      "name": "4번 세탁기(남자)",
-      "updatedAt": 1573191276693,
-      "isRunning": false,
-      "isBroken": false,
-      "groupId": 1
-    },
-    {
-      "mac": "CC:50:E3:3E:E4:30",
-      "name": "5번 세탁기(남자)",
-      "updatedAt": 1573191276693,
-      "isRunning": false,
-      "isBroken": false,
-      "groupId": 1
-    },
-    {
-      "mac": "CC:50:E3:3E:DD:79",
-      "name": "6번 세탁기(남자)",
-      "updatedAt": 1573191276693,
-      "isRunning": false,
-      "isBroken": false,
-      "groupId": 1
-    },
-    {
-      "mac": "EC:FA:BC:41:D2:A9",
-      "name": "7번 세탁기(남자)",
-      "updatedAt": 1573191276693,
-      "isRunning": false,
-      "isBroken": false,
-      "groupId": 1
-    },
-    {
-      "mac": "EC:FA:BC:41:12:3D",
-      "name": "8번 세탁기(남자)",
-      "updatedAt": 1573191276693,
-      "isRunning": false,
-      "isBroken": false,
-      "groupId": 1
-    },
-    {
-      "mac": "80:7D:3A:15:78:41",
-      "name": "1번 세탁기(여자)",
-      "updatedAt": 1573191276693,
-      "isRunning": false,
-      "isBroken": false,
-      "groupId": 2
-    },
-    {
-      "mac": "80:7D:3A:15:C5:4F",
-      "name": "2번 세탁기(여자)",
-      "updatedAt": 1573191276693,
-      "isRunning": false,
-      "isBroken": false,
-      "groupId": 2
-    },
-    {
-      "mac": "80:7D:3A:15:AD:88",
-      "name": "3번 세탁기(여자)",
-      "updatedAt": 1573191276693,
-      "isRunning": false,
-      "isBroken": false,
-      "groupId": 2
-    },
-    {
-      "mac": "80:7D:3A:14:FB:8A",
-      "name": "4번 세탁기(여자)",
-      "updatedAt": 1573191276693,
-      "isRunning": false,
-      "isBroken": false,
-      "groupId": 2
-    },
-    {
-      "mac": "68:C6:3A:CA:FF:78",
-      "name": "5번 세탁기(여자)",
-      "updatedAt": 1573191276693,
-      "isRunning": false,
-      "isBroken": false,
-      "groupId": 2
-    },
-    {
-      "mac": "80:7D:3A:15:BB:8E",
-      "name": "6번 세탁기(여자)",
-      "updatedAt": 1573191276693,
-      "isRunning": false,
-      "isBroken": false,
-      "groupId": 2
-    },
-    {
-      "mac": "5C:CF:7F:77:1F:97",
-      "name": "7번 세탁기(여자)",
-      "updatedAt": 1573191276693,
-      "isRunning": false,
-      "isBroken": false,
-      "groupId": 2
-    },
-    {
-      "mac": "B4:E6:2D:14:D2:C5",
-      "name": "8번 세탁기(여자)",
-      "updatedAt": 1573191276693,
-      "isRunning": false,
-      "isBroken": false,
-      "groupId": 2
-    }
-  ],
-  "group": [
-    {
-      "id": 1,
-      "name": "동아대학교 남자기숙사 1층",
-      "path": "/dit/man"
-    },
-    {
-      "id": 2,
-      "name": "동아대학교 여자기숙사 지하 1층",
-      "path": "/dit/woman"
-    }
-  ]
+	"machine": [
+		{
+			"mac": "EC:FA:BC:41:DB:3A",
+			"name": "1번 세탁기",
+			"updatedAt": 1580999529559,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 1
+		},
+		{
+			"mac": "EC:FA:BC:41:16:5F",
+			"name": "2번 세탁기",
+			"updatedAt": 1581319703348,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 1
+		},
+		{
+			"mac": "EC:FA:BC:41:A1:30",
+			"name": "3번 세탁기",
+			"updatedAt": 1581316297543,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 1
+		},
+		{
+			"mac": "EC:FA:BC:41:CF:E1",
+			"name": "4번 세탁기",
+			"updatedAt": 1580646372908,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 1
+		},
+		{
+			"mac": "CC:50:E3:3E:E4:30",
+			"name": "5번 세탁기",
+			"updatedAt": 1581251446711,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 1
+		},
+		{
+			"mac": "CC:50:E3:3E:DD:79",
+			"name": "6번 세탁기",
+			"updatedAt": 1580998378106,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 1
+		},
+		{
+			"mac": "EC:FA:BC:41:D2:A9",
+			"name": "7번 세탁기",
+			"updatedAt": 1581258334007,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 1
+		},
+		{
+			"mac": "EC:FA:BC:41:12:3D",
+			"name": "8번 세탁기",
+			"updatedAt": 1580375640975,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 1
+		},
+		{
+			"mac": "80:7D:3A:15:78:41",
+			"name": "1번 세탁기",
+			"updatedAt": 1581254543307,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 2
+		},
+		{
+			"mac": "80:7D:3A:15:C5:4F",
+			"name": "2번 세탁기",
+			"updatedAt": 1581256567344,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 2
+		},
+		{
+			"mac": "80:7D:3A:15:AD:88",
+			"name": "3번 세탁기",
+			"updatedAt": 1581232496128,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 2
+		},
+		{
+			"mac": "80:7D:3A:14:FB:8A",
+			"name": "4번 세탁기",
+			"updatedAt": 1581255696586,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 2
+		},
+		{
+			"mac": "68:C6:3A:CA:FF:78",
+			"name": "5번 세탁기",
+			"updatedAt": 1581085590108,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 2
+		},
+		{
+			"mac": "80:7D:3A:15:BB:8E",
+			"name": "6번 세탁기",
+			"updatedAt": 1581251598504,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 2
+		},
+		{
+			"mac": "5C:CF:7F:77:1F:97",
+			"name": "7번 세탁기",
+			"updatedAt": 1581251657370,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 2
+		},
+		{
+			"mac": "B4:E6:2D:14:D2:C5",
+			"name": "8번 세탁기",
+			"updatedAt": 1581255749449,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 2
+		},
+		{
+			"mac": "BC:DD:C2:AC:74:CA",
+			"name": "1번 세탁기",
+			"updatedAt": 1581499097666,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 3
+		},
+		{
+			"mac": "BC:DD:C2:AC:15:1B",
+			"name": "2번 세탁기",
+			"updatedAt": 1581499097666,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 3
+		},
+		{
+			"mac": "BC:DD:C2:AC:7C:EB",
+			"name": "3번 세탁기",
+			"updatedAt": 1581499097666,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 3
+		},
+		{
+			"mac": "BC:DD:C2:AC:80:E8",
+			"name": "4번 세탁기",
+			"updatedAt": 1581499097666,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 3
+		},
+		{
+			"mac": "BC:DD:C2:AC:81:4F",
+			"name": "5번 세탁기",
+			"updatedAt": 1581499097666,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 3
+		},
+		{
+			"mac": "BC:DD:C2:AC:83:69",
+			"name": "6번 세탁기",
+			"updatedAt": 1581499097666,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 3
+		},
+		{
+			"mac": "BC:DD:C2:AC:82:F6",
+			"name": "7번 세탁기",
+			"updatedAt": 1581499097666,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 3
+		},
+		{
+			"mac": "BC:DD:C2:AC:79:6C",
+			"name": "8번 세탁기",
+			"updatedAt": 1581499097666,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 3
+		},
+		{
+			"mac": "BC:DD:C2:AC:79:A5",
+			"name": "9번 세탁기",
+			"updatedAt": 1581499097666,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 3
+		},
+		{
+			"mac": "BC:DD:C2:AC:84:0B",
+			"name": "10번 세탁기",
+			"updatedAt": 1581499097666,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 3
+		},
+		{
+			"mac": "BC:DD:C2:AC:7B:FF",
+			"name": "11번 세탁기",
+			"updatedAt": 1581499097666,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 3
+		},
+		{
+			"mac": "BC:DD:C2:AC:7C:88",
+			"name": "12번 세탁기",
+			"updatedAt": 1581499097666,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 3
+		},
+		{
+			"mac": "BC:DD:C2:AC:71:3C",
+			"name": "1번 건조기",
+			"updatedAt": 1581499097666,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 3
+		},
+		{
+			"mac": "BC:DD:C2:AC:7C:53",
+			"name": "2번 건조기",
+			"updatedAt": 1581499097666,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 3
+		},
+		{
+			"mac": "BC:DD:C2:AC:80:1E",
+			"name": "3번 건조기",
+			"updatedAt": 1581499097666,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 3
+		},
+		{
+			"mac": "BC:DD:C2:AC:79:AA",
+			"name": "1번 세탁기",
+			"updatedAt": 1581499097666,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 4
+		},
+		{
+			"mac": "BC:DD:C2:AC:72:8E",
+			"name": "2번 세탁기",
+			"updatedAt": 1581499097666,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 4
+		},
+		{
+			"mac": "BC:DD:C2:AC:74:00",
+			"name": "3번 세탁기",
+			"updatedAt": 1581499097666,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 4
+		},
+		{
+			"mac": "BC:DD:C2:AC:79:5C",
+			"name": "4번 세탁기",
+			"updatedAt": 1581499097666,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 4
+		},
+		{
+			"mac": "BC:DD:C2:AC:85:00",
+			"name": "5번 세탁기",
+			"updatedAt": 1581499097666,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 4
+		},
+		{
+			"mac": "BC:DD:C2:AC:75:6E",
+			"name": "6번 세탁기",
+			"updatedAt": 1581499097666,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 4
+		},
+		{
+			"mac": "BC:DD:C2:AC:76:C6",
+			"name": "7번 세탁기",
+			"updatedAt": 1581499097666,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 4
+		},
+		{
+			"mac": "BC:DD:C2:AC:15:4E",
+			"name": "8번 세탁기",
+			"updatedAt": 1581499097666,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 4
+		},
+		{
+			"mac": "BC:DD:C2:AC:72:82",
+			"name": "9번 세탁기",
+			"updatedAt": 1581499097666,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 4
+		},
+		{
+			"mac": "BC:DD:C2:AC:18:3C",
+			"name": "10번 세탁기",
+			"updatedAt": 1581499097666,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 4
+		},
+		{
+			"mac": "BC:DD:C2:AC:71:ED",
+			"name": "11번 세탁기",
+			"updatedAt": 1581499097666,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 4
+		},
+		{
+			"mac": "BC:DD:C2:AC:0B:24",
+			"name": "12번 세탁기",
+			"updatedAt": 1581499097666,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 4
+		},
+		{
+			"mac": "BC:DD:C2:AC:10:43",
+			"name": "13번 세탁기",
+			"updatedAt": 1581499097666,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 4
+		},
+		{
+			"mac": "BC:DD:C2:AC:85:92",
+			"name": "14번 세탁기",
+			"updatedAt": 1581499097666,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 4
+		},
+		{
+			"mac": "BC:DD:C2:AC:73:76",
+			"name": "15번 세탁기",
+			"updatedAt": 1581499097666,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 4
+		},
+		{
+			"mac": "BC:DD:C2:AC:71:26",
+			"name": "16번 세탁기",
+			"updatedAt": 1581499097666,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 4
+		},
+		{
+			"mac": "BC:DD:C2:AC:71:F9",
+			"name": "1번 건조기",
+			"updatedAt": 1581499097666,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 4
+		},
+		{
+			"mac": "BC:DD:C2:AC:7A:53",
+			"name": "2번 건조기",
+			"updatedAt": 1581499097666,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 4
+		},
+		{
+			"mac": "BC:DD:C2:AC:85:6B",
+			"name": "3번 건조기",
+			"updatedAt": 1581499097666,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 4
+		},
+		{
+			"mac": "BC:DD:C2:AC:78:8A",
+			"name": "4번 건조기",
+			"updatedAt": 1581499097666,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 4
+		},
+		{
+			"mac": "BC:DD:C2:AC:81:E5",
+			"name": "5번 건조기",
+			"updatedAt": 1581499097666,
+			"isRunning": false,
+			"isBroken": false,
+			"groupId": 4
+		}
+	],
+	"group": [
+		{
+			"id": 1,
+			"name": "동의과학대학 남자세탁실",
+			"path": "/dit/man"
+		},
+		{
+			"id": 2,
+			"name": "동의과학대학 여자세탁실",
+			"path": "/dit/woman"
+		},
+		{
+			"id": 3,
+			"name": "동아대학교 승학캠퍼스 남자",
+			"path": "/donga/seunghak_man"
+		},
+		{
+			"id": 4,
+			"name": "동아대학교 승학캠퍼스 여자",
+			"path": "/donga/seunghak_woman"
+		}
+	]
 }
